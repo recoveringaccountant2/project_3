@@ -15,10 +15,6 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 S3_BASE_URL = 'https://s3-us-west-1.amazonaws.com/'
 BUCKET = 'sei-stay-connected'
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 15755e9 (added profilepic to the admin)
 def home(request):
     return HttpResponseRedirect('/about/')
 
